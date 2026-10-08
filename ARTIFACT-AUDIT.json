@@ -1,0 +1,15 @@
+{
+  "modId": "rftoolsdim",
+  "originalJar": "rftoolsdim-26.1.2-13.0.0-atm11.jar",
+  "originalSha256": "ea46cb6d1d72d034f7fda98f47c26906c7719e45532d880d1970341d8c583c2c",
+  "sha256": "85f7db33a7cd5bc0cf140d432a702202ea76b8d01913603cd490c8242f470c8b",
+  "classes": 202,
+  "classMajors": [
+    69
+  ],
+  "archiveIntegrity": "PASS",
+  "licenseUrl": "https://raw.githubusercontent.com/McJtyMods/RFToolsDimensions/1.21_neo/LICENSE",
+  "licenseEmbedded": true,
+  "exactModifiedSourceAvailable": false,
+  "validation": "Previously compiled Java 25 artifact found installed in the ATM11 instance and listed in its mod inventory. ZIP integrity, mod metadata and bytecode version verified. Full gameplay functionality was not retested during publication. The exact modified source tree was not located in the inspected folders."
+}
