@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:dirt",
+    "E": "rftoolsdim:empty_dimlet",
+    "O": "minecraft:obsidian"
+  },
+  "pattern": [
+    "DDD",
+    "DED",
+    "DOD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:empty_biome_controller_dimlet"
+  }
+}

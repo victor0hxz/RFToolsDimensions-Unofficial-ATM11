@@ -1,0 +1,9 @@
+{
+  "binary": "rftoolsdim-26.1.2-13.0.0-atm11.jar",
+  "sha256": "85f7db33a7cd5bc0cf140d432a702202ea76b8d01913603cd490c8242f470c8b",
+  "decompiler": "Vineflower 1.11.2",
+  "javaFiles": 163,
+  "filesWithDecompilerFailureMarkers": [],
+  "recompilationVerified": false,
+  "originalModifiedSourceRecovered": false
+}

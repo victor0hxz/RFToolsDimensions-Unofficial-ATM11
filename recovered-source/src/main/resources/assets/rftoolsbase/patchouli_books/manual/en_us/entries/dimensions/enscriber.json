@@ -1,0 +1,23 @@
+{
+  "name": "Enscriber",
+  "icon": "rftoolsdim:enscriber",
+  "category": "rftoolsbase:category_rftoolsdimensions_dimensions",
+  "extra_recipe_mappings": {
+    "rftoolsdim:enscriber": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The Enscriber combines dimlets into a $(l:rftoolsbase:dimensions/dimension_tabs)Realized Dimension Tab$(/l). Put an Empty Dimension Tab in the tab slot and arrange dimlets to describe the dimension."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsdim:enscriber"
+    },
+    {
+      "type": "text",
+      "text": "Dimlets control terrain, biomes, blocks, fluids, structures, time, sky, and other properties. The resulting tab can be given to the Dimension Builder."
+    }
+  ]
+}

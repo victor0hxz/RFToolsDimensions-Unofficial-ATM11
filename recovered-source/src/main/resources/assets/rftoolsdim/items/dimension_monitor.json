@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "rftoolsdim:power",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rftoolsdim:item/dimension_monitor"
+    },
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem0"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem2"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem3"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem4"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem5"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem6"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem7"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/monitoritem8"
+        }
+      }
+    ]
+  }
+}

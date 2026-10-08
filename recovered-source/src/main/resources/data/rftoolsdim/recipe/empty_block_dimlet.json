@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:clay_ball",
+    "E": "rftoolsdim:empty_dimlet"
+  },
+  "pattern": [
+    "CCC",
+    "CEC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:empty_block_dimlet"
+  }
+}

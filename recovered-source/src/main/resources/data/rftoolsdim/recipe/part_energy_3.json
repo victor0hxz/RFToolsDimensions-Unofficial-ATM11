@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": "rftoolsdim:part_energy_2",
+    "R": "minecraft:redstone_block",
+    "U": "rftoolsbase:infused_diamond",
+    "u": "rftoolsdim:legendary_essence"
+  },
+  "pattern": [
+    "uRu",
+    "RMR",
+    "uUu"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:part_energy_3"
+  }
+}

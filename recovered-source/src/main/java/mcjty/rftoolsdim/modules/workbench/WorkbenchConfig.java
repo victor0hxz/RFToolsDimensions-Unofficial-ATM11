@@ -1,0 +1,24 @@
+package mcjty.rftoolsdim.modules.workbench;
+
+import net.neoforged.neoforge.common.ModConfigSpec.Builder;
+import net.neoforged.neoforge.common.ModConfigSpec.IntValue;
+
+public class WorkbenchConfig {
+   public static final String SUB_CATEGORY_WORKBENCH = "dimletworkbench";
+   public static IntValue RESEARCHER_MAXENERGY;
+   public static IntValue RESEARCHER_ENERGY_INPUT_PERTICK;
+   public static IntValue RESEARCHER_USE_PER_TICK;
+   public static IntValue RESEARCH_TIME;
+
+   public static void init(Builder SERVER_BUILDER, Builder CLIENT_BUILDER) {
+      SERVER_BUILDER.comment("Dimlet Workbench settings").push("dimletworkbench");
+      RESEARCHER_MAXENERGY = SERVER_BUILDER.comment("Maximum amount of power the researcher can store")
+         .defineInRange("researcherMaxPower", 100000, 0, Integer.MAX_VALUE);
+      RESEARCHER_ENERGY_INPUT_PERTICK = SERVER_BUILDER.comment("Amount of RF per tick input (per side) for the researcher")
+         .defineInRange("researcherRFPerTick", 10000, 0, Integer.MAX_VALUE);
+      RESEARCHER_USE_PER_TICK = SERVER_BUILDER.comment("Amount of RF per tick the researcher uses while operating")
+         .defineInRange("researcherUsePerTick", 200, 0, Integer.MAX_VALUE);
+      RESEARCH_TIME = SERVER_BUILDER.comment("How many ticks are needed to research one item").defineInRange("researcheTime", 400, 0, Integer.MAX_VALUE);
+      SERVER_BUILDER.pop();
+   }
+}

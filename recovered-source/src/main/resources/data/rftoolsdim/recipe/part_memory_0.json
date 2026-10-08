@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": "#c:dusts/glowstone",
+    "l": "#c:storage_blocks/lapis",
+    "r": "minecraft:redstone",
+    "s": "rftoolsbase:dimensionalshard"
+  },
+  "pattern": [
+    "rlr",
+    "lsl",
+    "rgr"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:part_memory_0"
+  }
+}

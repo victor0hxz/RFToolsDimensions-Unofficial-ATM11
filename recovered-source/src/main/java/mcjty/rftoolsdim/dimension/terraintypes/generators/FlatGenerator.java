@@ -1,0 +1,51 @@
+package mcjty.rftoolsdim.dimension.terraintypes.generators;
+
+import java.util.Arrays;
+import java.util.concurrent.CompletableFuture;
+import mcjty.rftoolsdim.dimension.terraintypes.RFToolsChunkGenerator;
+import net.minecraft.core.BlockPos.MutableBlockPos;
+import net.minecraft.world.level.LevelHeightAccessor;
+import net.minecraft.world.level.NoiseColumn;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.chunk.ChunkAccess;
+import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.levelgen.Heightmap.Types;
+import org.jetbrains.annotations.NotNull;
+
+public class FlatGenerator {
+   public static final int FLATHEIGHT = 120;
+
+   @NotNull
+   public static CompletableFuture<ChunkAccess> fillFromNoise(ChunkAccess chunkAccess, RFToolsChunkGenerator generator) {
+      MutableBlockPos mpos = new MutableBlockPos();
+      Heightmap heightmap = chunkAccess.getOrCreateHeightmapUnprimed(Types.OCEAN_FLOOR_WG);
+      Heightmap heightmap1 = chunkAccess.getOrCreateHeightmapUnprimed(Types.WORLD_SURFACE_WG);
+      BlockState defaultBlock = generator.getDefaultBlock();
+      BlockState bedrock = Blocks.BEDROCK.defaultBlockState();
+      int minBuildHeight = chunkAccess.getMinY();
+
+      for (int y = minBuildHeight; y < 120; y++) {
+         BlockState b = y < minBuildHeight + 2 ? bedrock : defaultBlock;
+
+         for (int x = 0; x < 16; x++) {
+            for (int z = 0; z < 16; z++) {
+               chunkAccess.setBlockState(mpos.set(x, y, z), b);
+               heightmap.update(x, y, z, b);
+               heightmap1.update(x, y, z, b);
+            }
+         }
+      }
+
+      return CompletableFuture.completedFuture(chunkAccess);
+   }
+
+   @NotNull
+   public static NoiseColumn getBaseColumn(int pX, int pZ, LevelHeightAccessor level, RFToolsChunkGenerator generator) {
+      BlockState[] states = new BlockState[120 - level.getMinY()];
+      Arrays.fill(states, generator.getDefaultBlock());
+      states[0] = Blocks.BEDROCK.defaultBlockState();
+      states[1] = Blocks.BEDROCK.defaultBlockState();
+      return new NoiseColumn(level.getMinY(), states);
+   }
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: rftoolsdim
+Specification-Vendor: McJty
+Specification-Version: 1
+Implementation-Title: RFToolsDimensions
+Implementation-Version: 26.1.2-13.0.0-atm11
+Implementation-Vendor: McJty
+Implementation-Timestamp: 2026-09-27T20:33:38-0300
+

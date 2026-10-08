@@ -1,0 +1,75 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "rftoolsdim:power",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "rftoolsdim:item/phased_field_generator"
+    },
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator0"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator2"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator3"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator4"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator5"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator6"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator7"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rftoolsdim:item/phasedfieldgenerator8"
+        }
+      }
+    ]
+  }
+}

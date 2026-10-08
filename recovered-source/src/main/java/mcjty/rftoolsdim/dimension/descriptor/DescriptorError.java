@@ -1,0 +1,71 @@
+package mcjty.rftoolsdim.dimension.descriptor;
+
+public class DescriptorError extends Exception {
+   public static final DescriptorError OK = new DescriptorError(DescriptorError.Code.OK);
+   private final DescriptorError.Code code;
+   private final String data;
+
+   public static DescriptorError ERROR(DescriptorError.Code code) {
+      return new DescriptorError(code);
+   }
+
+   public static DescriptorError ERROR(DescriptorError.Code code, String data) {
+      return new DescriptorError(code, data);
+   }
+
+   public DescriptorError(DescriptorError.Code code, String data) {
+      this.code = code;
+      this.data = data;
+   }
+
+   public DescriptorError(DescriptorError.Code code) {
+      this.code = code;
+      this.data = null;
+   }
+
+   public DescriptorError.Code getCode() {
+      return this.code;
+   }
+
+   public String getData() {
+      return this.data;
+   }
+
+   @Override
+   public String getMessage() {
+      return this.data == null ? this.code.getMessage() : this.code.getMessage() + " " + this.data;
+   }
+
+   public static enum Code {
+      OK(null),
+      ONLY_ONE_BIOME_CONTROLLER("You can only have one biome controller!"),
+      ONLY_ONE_TERRAIN("You can only have one terrain type!"),
+      ONLY_ONE_TIME("You can only have one time dimlet!"),
+      ONLY_ONE_BLOCK("Terrain dimlet only supports one block!"),
+      NO_TAGS("Terrain dimlet doesn't support tags! Only features"),
+      BAD_BLOCK("Bad block!"),
+      BAD_FLUID("Bad fluid!"),
+      ONLY_ONE_FLUID("Terrain supports only one fluid!"),
+      FLUID_HAS_NO_BLOCK("Fluid has no block!"),
+      BAD_FEATURE("Bad feature!"),
+      BAD_TIME("Bad time!"),
+      BAD_ATTRIBUTE("Bad attribute!"),
+      BAD_ADMIN_TYPE("Bad admin type!"),
+      BAD_TERRAIN_TYPE("Bad terrain type!"),
+      BAD_BIOME_CONTROLLER("Bad biome controller!"),
+      DANGLING_BLOCKS("Dangling blocks! Blocks should come before either a terrain or a feature!"),
+      DANGLING_FLUIDS("Dangling fluids! Fluids should come before either a terrain or a feature!"),
+      DANGLING_ATTRIBUTES("Dangling attributes! Attributes should come before a terrain!"),
+      DANGLING_TAGS("Dangling tags! Tags should come before a feature!");
+
+      private final String message;
+
+      private Code(String message) {
+         this.message = message;
+      }
+
+      public String getMessage() {
+         return this.message;
+      }
+   }
+}

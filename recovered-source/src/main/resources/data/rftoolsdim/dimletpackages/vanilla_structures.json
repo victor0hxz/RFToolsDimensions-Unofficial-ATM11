@@ -1,0 +1,258 @@
+[
+  {
+    "type": "structure",
+    "key": "none",
+    "rarity": "common",
+    "create": 5,
+    "maintain": 5,
+    "ticks": 5,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "id": "minecraft:white_wool"
+    }
+  },
+  {
+    "type": "structure",
+    "key": "default",
+    "rarity": "common",
+    "create": 5,
+    "maintain": 5,
+    "ticks": 5,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "id": "minecraft:stone"
+    }
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:pillager_outpost",
+    "rarity": "uncommon",
+    "create": 200,
+    "maintain": 200,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:mineshaft",
+    "rarity": "uncommon",
+    "create": 300,
+    "maintain": 300,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:mansion",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 400,
+    "ticks": 400,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:jungle_pyramid",
+    "rarity": "uncommon",
+    "create": 300,
+    "maintain": 300,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:desert_pyramid",
+    "rarity": "uncommon",
+    "create": 300,
+    "maintain": 300,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:igloo",
+    "rarity": "uncommon",
+    "create": 300,
+    "maintain": 300,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:ruined_portal",
+    "rarity": "uncommon",
+    "create": 100,
+    "maintain": 100,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:shipwreck",
+    "rarity": "uncommon",
+    "create": 200,
+    "maintain": 200,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:swamp_hut",
+    "rarity": "uncommon",
+    "create": 100,
+    "maintain": 100,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:stronghold",
+    "rarity": "uncommon",
+    "create": 200,
+    "maintain": 200,
+    "ticks": 150,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:monument",
+    "rarity": "uncommon",
+    "create": 200,
+    "maintain": 200,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:ocean_ruin_cold",
+    "rarity": "uncommon",
+    "create": 150,
+    "maintain": 150,
+    "ticks": 150,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:ocean_ruin_warm",
+    "rarity": "uncommon",
+    "create": 150,
+    "maintain": 150,
+    "ticks": 150,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:fortress",
+    "rarity": "uncommon",
+    "create": 200,
+    "maintain": 200,
+    "ticks": 200,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:end_city",
+    "rarity": "uncommon",
+    "create": 800,
+    "maintain": 500,
+    "ticks": 300,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:buried_treasure",
+    "rarity": "uncommon",
+    "create": 600,
+    "maintain": 500,
+    "ticks": 300,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:village_plains",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 1000,
+    "ticks": 500,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:village_desert",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 1000,
+    "ticks": 500,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:village_snowy",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 1000,
+    "ticks": 500,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:village_savanna",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 1000,
+    "ticks": 500,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:village_taiga",
+    "rarity": "rare",
+    "create": 1000,
+    "maintain": 1000,
+    "ticks": 500,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:nether_fossil",
+    "rarity": "uncommon",
+    "create": 100,
+    "maintain": 100,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:bastion_remnant",
+    "rarity": "uncommon",
+    "create": 100,
+    "maintain": 100,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true
+  }
+]

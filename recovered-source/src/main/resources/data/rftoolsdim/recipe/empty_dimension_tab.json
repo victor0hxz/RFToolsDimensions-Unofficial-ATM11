@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "p": "minecraft:paper",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "prp",
+    "rpr",
+    "prp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:empty_dimension_tab"
+  }
+}
