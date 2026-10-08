@@ -1,5 +1,14 @@
 # RFToolsDimensions - Unofficial ATM11 Fan Build
 
+<!-- visible-downloads -->
+## Download the compiled mod
+
+- [Download JAR directly](https://github.com/victor0hxz/RFToolsDimensions-Unofficial-ATM11/releases/download/mc26.1.2-unofficial-build/rftoolsdim-26.1.2-13.0.0-atm11.jar)
+- [Release with JAR, license and checksums](https://github.com/victor0hxz/RFToolsDimensions-Unofficial-ATM11/releases/tag/mc26.1.2-unofficial-build)
+- [JAR in this repository](downloads/rftoolsdim-26.1.2-13.0.0-atm11.jar)
+
+The compiled mod is available above. This repository distributes audited binaries and documentation; the exact modified source was not located. The release remains a prerelease because full gameplay validation has not been repeated.
+
 RFTools dimension creation and management using dimlets and powered dimension infrastructure.
 
 ## Unofficial fan version and credits
