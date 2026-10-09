@@ -1,0 +1,27 @@
+{
+  "projectId": 1734571,
+  "fileId": 9105080,
+  "fileName": "rftoolsdim-26.1.2-13.0.0-atm11.jar",
+  "sha256": "85f7db33a7cd5bc0cf140d432a702202ea76b8d01913603cd490c8242f470c8b",
+  "uploadedAtUtc": "2026-10-09T05:33:45.4654824Z",
+  "deferredRelations": [
+    {
+      "type": "requiredDependency",
+      "slug": "mcjtylib-unofficial-atm11-fan-build",
+      "projectID": 1734200
+    },
+    {
+      "type": "requiredDependency",
+      "slug": "rftoolsbase-unofficial-atm11-fan-build",
+      "projectID": 1734569
+    }
+  ],
+  "gameVersions": [
+    16082,
+    10150,
+    9638,
+    9639
+  ],
+  "fileUrl": "https://www.curseforge.com/minecraft/mc-mods/rftoolsdimensions-unofficial-atm11-fan-build/files/9105080",
+  "status": "Uploaded; moderation approval must be checked in author portal"
+}
