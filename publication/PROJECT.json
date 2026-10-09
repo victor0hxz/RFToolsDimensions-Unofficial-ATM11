@@ -13,7 +13,7 @@
   "jar": "rftoolsdim-26.1.2-13.0.0-atm11.jar",
   "sha256": "85f7db33a7cd5bc0cf140d432a702202ea76b8d01913603cd490c8242f470c8b",
   "dependenciesNotes": "Matching McJtyLib and RFTools Base ATM11 builds; NeoForge 26.1.2.109; Java 25.",
-  "status": "Created; portal status New; file uploads not yet verified",
+  "status": "JAR uploaded; moderation status not independently verified",
   "sourceAvailability": "Java implementation recovered by decompilation; original modified development project not located; recompilation unverified.",
   "sourceUrl": "https://github.com/victor0hxz/RFToolsDimensions-Unofficial-ATM11",
   "game": "Minecraft",
@@ -23,5 +23,20 @@
   "slug": "rftoolsdimensions-unofficial-atm11-fan-build",
   "curseforgeUrl": "https://www.curseforge.com/minecraft/mc-mods/rftoolsdimensions-unofficial-atm11-fan-build",
   "publicationTitle": "RFToolsDimensions: Version Locked",
-  "logoSubtitle": "VERSION LOCKED"
+  "logoSubtitle": "VERSION LOCKED",
+  "fileId": 9105080,
+  "fileUrl": "https://www.curseforge.com/minecraft/mc-mods/rftoolsdimensions-unofficial-atm11-fan-build/files/9105080",
+  "pendingRelations": [
+    {
+      "type": "requiredDependency",
+      "slug": "mcjtylib-unofficial-atm11-fan-build",
+      "projectID": 1734200
+    },
+    {
+      "type": "requiredDependency",
+      "slug": "rftoolsbase-unofficial-atm11-fan-build",
+      "projectID": 1734569
+    }
+  ],
+  "profileLogoStatus": "Version Locked PNG published on GitHub; native CurseForge logo replacement not confirmed"
 }
